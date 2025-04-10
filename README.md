@@ -1,4 +1,4 @@
-#📽️🎬# Projeto de Consumo da API de Filmes - Sujeito Programador
+📽️🎬 Projeto de Consumo da API de Filmes - Sujeito Programador
 
 Este projeto tem como objetivo consumir a API pública de filmes fornecida pelo **Sujeito Programador**. A API retorna informações sobre filmes, como título, ano de lançamento, sinopse, gênero e muito mais.
 
@@ -47,7 +47,7 @@ Crie um arquivo `.env` (se necessário) para definir variáveis de ambiente, com
 API_URL=https://sujeitoprogramador.com/r-api/?api=filmes
 ````
 
-#✌️# Autor
+✌️ Autor
 ````
 Vitor Aguiar / GitHub: https://github.com/VitorAguiiar
 ````
