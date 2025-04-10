@@ -47,7 +47,7 @@ Crie um arquivo `.env` (se necessário) para definir variáveis de ambiente, com
 API_URL=https://sujeitoprogramador.com/r-api/?api=filmes
 ````
 
-✌️ Autor
+# ✌️ Autor
 ````
 Vitor Aguiar / GitHub: https://github.com/VitorAguiiar
 ````
