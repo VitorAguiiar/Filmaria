@@ -52,4 +52,3 @@ API_URL=https://sujeitoprogramador.com/r-api/?api=filmes
 Vitor Aguiar.
 GitHub: https://github.com/VitorAguiiar
 ````
-
