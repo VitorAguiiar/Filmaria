@@ -11,7 +11,7 @@ API URL: [https://sujeitoprogramador.com/] (https://sujeitoprogramador.com/)
 - **Fetch API / Axios** (para fazer requisições HTTP)
 - **Node.js** (caso esteja utilizando no backend)
 
-## Funcionalidades
+# 👾 Funcionalidades
 
 - **Listagem de filmes**: Exibe uma lista de filmes disponíveis na API.
 - **Detalhes de um filme**: Permite ver detalhes completos de um filme, como título, descrição, ano de lançamento e gênero.
