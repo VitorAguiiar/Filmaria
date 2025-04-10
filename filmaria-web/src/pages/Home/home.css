@@ -1,0 +1,59 @@
+/* Garante que o container da Home ocupe o espaço disponível */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ocupa a largura disponível dentro do .app */
+    max-width: 900px; /* Define uma largura máxima para o conteúdo */
+    padding: 20px;
+    box-sizing: border-box; /* Inclui padding na largura/altura total */
+}
+ 
+.lista-filmes {
+    width: 100%;
+    margin: 15px 0; /* Ajusta margem */
+}
+ 
+.lista-filmes article {
+    background-color: #fff;
+    margin-bottom: 25px; /* Aumenta espaço entre artigos */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
+    display: flex;
+    flex-direction: column;
+    /* Removido justify-content: center; pois pode não ser necessário */
+}
+ 
+.lista-filmes strong {
+    padding-bottom: 15px;
+    font-size: 22px;
+    text-align: center; /* Centraliza o título */
+    color: #333;
+}
+ 
+.lista-filmes img {
+    width: 100%;
+    max-height: 450px; /* Define altura máxima */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    border-radius: 4px; /* Pequeno arredondamento na imagem */
+    margin-bottom: 15px; /* Espaço após a imagem */
+}
+ 
+.lista-filmes article a {
+    text-decoration: none;
+    color: #fff;
+    background-color: brown; /* Mantém a cor */
+    font-size: 18px; /* Leve ajuste */
+    width: 100%;
+    padding: 12px 0; /* Ajusta padding vertical */
+    border-radius: 4px; /* Borda consistente */
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box; /* Inclui padding na largura total */
+    margin-top: auto; /* Empurra o botão para o final do article se houver <p> */
+}
+ 
+.lista-filmes article a:hover {
+    background-color: #8a2525; /* Cor um pouco mais escura no hover */
+}

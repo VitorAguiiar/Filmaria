@@ -1,0 +1,95 @@
+/* Container já definido globalmente ou em App.css */
+/* .container { ... } */
+ 
+.meus-filmes {
+    display: flex;
+    width: 100%;
+    max-width: 700px; /* Largura máxima para a lista */
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo interno */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a área */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+ 
+.meus-filmes h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+ 
+.lista-vazia {
+    font-size: 1.1em;
+    color: #666;
+    margin-top: 20px;
+}
+ 
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Ocupa toda a largura do .meus-filmes */
+}
+ 
+ul li {
+    padding: 15px 10px; /* Mais padding interno */
+    width: 100%; /* Ocupa toda a largura da UL */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaça nome e ações */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee; /* Linha separadora sutil */
+    box-sizing: border-box;
+}
+ 
+ul li:last-child {
+    border-bottom: none; /* Remove a borda do último item */
+}
+ 
+ul li span {
+    font-size: 18px; /* Tamanho do nome do filme */
+    color: #444;
+    flex-grow: 1; /* Faz o span ocupar o espaço disponível */
+    margin-right: 15px; /* Espaço antes das ações */
+}
+ 
+.acoes {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre link e botão */
+    flex-shrink: 0; /* Impede que as ações encolham */
+}
+ 
+.acoes a,
+.acoes button {
+    text-decoration: none;
+    padding: 6px 12px; /* Padding nos botões/links */
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ 
+.acoes a {
+    color: brown;
+    border: 1px solid brown;
+}
+ 
+.acoes a:hover {
+    background-color: brown;
+    color: #fff;
+}
+ 
+.acoes button {
+    background-color: #e74c3c; /* Cor vermelha para excluir */
+    color: white;
+    border: none;
+}
+ 
+.acoes button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+    transform: scale(1.05);
+}
+ 
+/* Estilos antigos de button genérico removidos para evitar conflitos */

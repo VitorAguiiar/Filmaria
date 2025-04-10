@@ -1,0 +1,99 @@
+/* Container já definido globalmente ou em App.css, mas pode ser específico aqui */
+/* .container { ... } */
+ 
+.filme-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ocupar largura do container pai */
+    max-width: 800px; /* Largura máxima */
+    margin-top: 20px; /* Espaço acima */
+    background-color: #fff; /* Mover fundo para cá */
+    padding: 25px; /* Aumentar padding interno */
+    border-radius: 8px; /* Bordas mais arredondadas */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+    box-sizing: border-box;
+}
+ 
+/* Remover margem e padding do article se o fundo/sombra estiver no .filme-info */
+.filme-info article {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.filme-info h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+ 
+.filme-info img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain; /* Usar contain se quiser ver a imagem toda */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+ 
+.filme-info h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 1px solid #eee; /* Linha sutil abaixo do subtítulo */
+    padding-bottom: 5px;
+}
+ 
+.filme-info p {
+    line-height: 1.6; /* Melhora a legibilidade */
+    color: #555;
+    margin-bottom: 25px; /* Espaço após a sinopse */
+}
+ 
+.botoes {
+    display: flex; /* Coloca os botões lado a lado */
+    gap: 15px; /* Espaço entre os botões */
+    margin-top: 20px; /* Espaço acima dos botões */
+    justify-content: center; /* Centraliza os botões */
+}
+ 
+/* Estilo base para botões e links que parecem botões */
+.filme-info button,
+.botao-link {
+    cursor: pointer;
+    border-radius: 5px;
+    border: none; /* Remover borda padrão */
+    font-size: 18px; /* Tamanho consistente */
+    padding: 12px 25px; /* Mais padding */
+    transition: all 0.3s ease;
+    text-decoration: none; /* Garante que links não tenham sublinhado */
+    display: inline-block; /* Necessário para padding em links */
+    text-align: center;
+}
+ 
+/* Estilo específico do botão Salvar */
+.filme-info button {
+    background-color: brown;
+    color: #fff;
+}
+ 
+.filme-info button:hover {
+    background-color: #a52a2a; /* Escurece no hover */
+    transform: scale(1.03); /* Leve efeito de zoom */
+}
+ 
+/* Estilo específico do link Trailer (para parecer botão) */
+.botao-link {
+    background-color: #555; /* Cor diferente para o trailer */
+    color: #fff;
+}
+ 
+.botao-link:hover {
+    background-color: #333;
+    color: #fff; /* Garante que a cor do texto permaneça */
+    transform: scale(1.03);
+}
+ 
+/* Remover estilos antigos que conflitavam */
+/* .filme-info a { ... } */
+/* .filme-info a:hover { ... } */
