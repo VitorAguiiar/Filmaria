@@ -27,7 +27,7 @@ API URL: [https://sujeitoprogramador.com/] (https://sujeitoprogramador.com/)
 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
+git clone (https://github.com/VitorAguiiar/Filmaria.git)
 ````
 
 2. Instalar Dependências
@@ -46,3 +46,9 @@ Crie um arquivo `.env` (se necessário) para definir variáveis de ambiente, com
 ```bash
 API_URL=https://sujeitoprogramador.com/r-api/?api=filmes
 ````
+
+## Autor
+````
+Vitor Aguiar / GitHub:
+````
+
