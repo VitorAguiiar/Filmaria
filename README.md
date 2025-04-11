@@ -4,7 +4,7 @@ Este projeto tem como objetivo consumir a API pública de filmes fornecida pelo 
 
 API URL: [https://sujeitoprogramador.com/] (https://sujeitoprogramador.com/)
 
- Tecnologias Utilizadas
+# ⚡ Tecnologias Utilizadas
 
 - **JavaScript** (ou outra linguagem de sua escolha)
 - **HTML/CSS** (para a interface do usuário, se necessário)
@@ -17,12 +17,12 @@ API URL: [https://sujeitoprogramador.com/] (https://sujeitoprogramador.com/)
 - **Detalhes de um filme**: Permite ver detalhes completos de um filme, como título, descrição, ano de lançamento e gênero.
 - **Pesquisa de filmes**: Permite buscar filmes através de um título.
 
-## Endpoints da API
+# 🤖 Endpoints da API
 
 - **Filmes em Destaque**: `https://sujeitoprogramador.com/r-api/?api=filmes`
 - **Busca de Filmes por Nome**: `https://sujeitoprogramador.com/r-api/?api=filmes&titulo=nome_do_filme`
 
-## Instalação
+# ☑️ Instalação
 
 1. Clonar o Repositório
 
