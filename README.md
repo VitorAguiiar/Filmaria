@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo consumir a API pública de filmes fornecida pelo **Sujeito Programador**. A API retorna informações sobre filmes, como título, ano de lançamento, sinopse, gênero e muito mais.
 
-API URL: [https://sujeitoprogramador.com/] (https://sujeitoprogramador.com/)
+API URL: https://sujeitoprogramador.com/
 
 # ⚡ Tecnologias Utilizadas
 
